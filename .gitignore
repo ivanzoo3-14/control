@@ -1,0 +1,19 @@
+# Credentials and local data — never commit
+config.json
+*.env
+.env
+.env.*
+*.key
+*.pem
+*.secret
+
+# rig data logs (large + local)
+*.jsonl
+logs/
+signals.jsonl
+
+# python
+__pycache__/
+*.pyc
+.venv/
+venv/
